@@ -226,8 +226,8 @@ footer a { color: var(--accent); }
 }
 
 .hero-image img {
-  width: 350px;
-  max-width: 90%;
+  width: 150px;
+  max-width: 40%;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
