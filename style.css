@@ -613,3 +613,77 @@ footer a {
     text-align: center;
   }
 }
+/* LIGHT THEME - OVERRIDE */
+
+:root {
+  --bg: #f4f8fc;
+  --bg-soft: #eaf2f8;
+  --card: #ffffff;
+  --border: #d7e1eb;
+  --text: #1e293b;
+  --muted: #64748b;
+  --accent: #14b88a;
+  --accent-2: #2563eb;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: #f4f8fc !important;
+  color: #1e293b !important;
+}
+
+/* Top navigation */
+.navbar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid #d7e1eb !important;
+}
+
+/* Background grid */
+.bg-grid {
+  opacity: 0.5;
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.04) 1px, transparent 1px);
+}
+
+/* Text */
+h1, h2, h3 {
+  color: #1e293b !important;
+}
+
+.hero-text,
+p {
+  color: #64748b !important;
+}
+
+/* Cards */
+.about-card,
+.stat,
+.skill-card,
+.project-card,
+.cert-card,
+.contact-card,
+.timeline-item {
+  background: #ffffff !important;
+  border-color: #d7e1eb !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Navigation links */
+.nav-links a,
+.social-links {
+  color: #64748b !important;
+}
+
+/* Buttons */
+.btn.secondary {
+  background: #ffffff !important;
+  color: #1e293b !important;
+}
+
+/* Hero image */
+.hero-image {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
