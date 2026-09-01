@@ -232,3 +232,50 @@ footer a { color: var(--accent); }
   border-radius: 50%;
   object-fit: cover;
 }
+/* Light Theme */
+
+body {
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+/* Navigation */
+header {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Sections */
+section {
+  background: transparent;
+}
+
+/* Cards */
+.skill-card,
+.project-card,
+.cert-card,
+.timeline-item,
+.hero-image {
+  background: #ffffff;
+  color: #1f2937;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Main heading */
+h1,
+h2,
+h3 {
+  color: #111827;
+}
+
+/* Paragraphs */
+p {
+  color: #4b5563;
+}
+
+/* Accent color */
+.section-label,
+.green,
+.cyan {
+  color: #2563eb;
+}
