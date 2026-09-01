@@ -219,3 +219,16 @@ footer a { color: var(--accent); }
   .contact-card { padding: 35px 20px; }
   footer { flex-direction: column; text-align: center; }
 }
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 350px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
